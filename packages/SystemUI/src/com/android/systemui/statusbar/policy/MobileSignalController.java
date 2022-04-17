@@ -427,7 +427,7 @@ public class MobileSignalController extends SignalController<
         StringBuilder str = new StringBuilder();
         StringBuilder strData = new StringBuilder();
         if (showPlmn && plmn != null) {
-            if (!isNumeric(plmn)) str.append(plmn)
+            if (!isNumeric(plmn)) str.append(plmn);
             strData.append(plmn);
         }
         if (spn != null) {
